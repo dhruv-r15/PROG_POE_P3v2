@@ -1,0 +1,121 @@
+﻿@using prjProgFinalMVC2.ViewModels
+@model IEnumerable<ClaimViewModel>
+
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Claims Management</h2>
+        @if (User.IsInRole("Lecturer"))
+        {
+            <a asp-action="Create" class="btn btn-primary">Submit New Claim</a>
+        }
+        @if (User.IsInRole("HR"))
+        {
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+                    Reports
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@Url.Action("Index", "Reporting")">Generate Reports</a>
+                    <a class="dropdown-item" href="#" onclick="downloadMonthlyReport()">Monthly Summary</a>
+                    <a class="dropdown-item" href="#" onclick="downloadPendingReport()">Pending Claims</a>
+                </div>
+            </div>
+        }
+    </div>
+
+    @if (User.IsInRole("HR") || User.IsInRole("Coordinator"))
+    {
+        <div class="alert alert-info">
+            <strong>Pending Claims:</strong> @ViewBag.PendingCount
+        </div>
+    }
+
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Module</th>
+                            <th>Lecturer</th>
+                            <th>Hours</th>
+                            <th>Total Amount</th>
+                            <th>Status</th>
+                            <th>Submission Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ModuleName</td>
+                                <td>@item.GetLecturerFullName()</td>
+                                <td>@item.HoursWorked</td>
+                                <td>@item.TotalAmount.ToString("C")</td>
+                                <td>
+                                    <span class="badge bg-@(item.Status switch {
+                                        "Approved" => "success",
+                                        "Rejected" => "danger",
+                                        _ => "warning"
+                                    })">@item.Status</span>
+                                </td>
+                                <td>@item.SubmissionDate.ToString("d")</td>
+                                <td>
+                                    <div class="btn-group">
+                                        <a asp-action="Details" asp-route-id="@item.ClaimId"
+                                           class="btn btn-info btn-sm">Details</a>
+                                        @if ((User.IsInRole("HR") || User.IsInRole("Coordinator")) && item.Status == "Pending")
+                                        {
+                                            <button onclick="updateClaimStatus(@item.ClaimId, 'Approved')"
+                                                    class="btn btn-success btn-sm">
+                                                Approve
+                                            </button>
+                                            <button onclick="updateClaimStatus(@item.ClaimId, 'Rejected')"
+                                                    class="btn btn-danger btn-sm">
+                                                Reject
+                                            </button>
+                                        }
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function updateClaimStatus(claimId, status) {
+            if (confirm(`Are you sure you want to ${status.toLowerCase()} this claim?`)) {
+                fetch(`/Claims/UpdateStatus?id=${claimId}&status=${status}`, {
+                    method: 'POST',
+                    headers: {
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    }
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            location.reload();
+                        } else {
+                            alert(data.message || 'Failed to update status');
+                        }
+                    });
+            }
+        }
+
+        function downloadMonthlyReport() {
+            const date = new Date();
+            window.location.href = `/Reporting/MonthlyAnalytics?month=${date.getMonth() + 1}&year=${date.getFullYear()}`;
+        }
+
+        function downloadPendingReport() {
+            window.location.href = '/Reporting/PendingApprovals';
+        }
+    </script>
+    @Html.AntiForgeryToken()
+}

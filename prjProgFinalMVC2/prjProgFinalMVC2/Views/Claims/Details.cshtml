@@ -1,0 +1,146 @@
+﻿@using prjProgFinalMVC2.ViewModels
+@model ClaimViewModel
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Claim Details</h3>
+                </div>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-sm-4">Module</dt>
+                        <dd class="col-sm-8">@Model.ModuleName</dd>
+
+                        <dt class="col-sm-4">Lecturer</dt>
+                        <dd class="col-sm-8">@Model.GetLecturerFullName()</dd>
+
+                        <dt class="col-sm-4">Hours Worked</dt>
+                        <dd class="col-sm-8">@Model.HoursWorked</dd>
+
+                        <dt class="col-sm-4">Total Amount</dt>
+                        <dd class="col-sm-8">@Model.TotalAmount.ToString("C")</dd>
+
+                        <dt class="col-sm-4">Status</dt>
+                        <dd class="col-sm-8">
+                            <span class="badge bg-@(Model.Status switch {
+                                "Approved" => "success",
+                                "Rejected" => "danger",
+                                _ => "warning"
+                            })">@Model.Status</span>
+                        </dd>
+
+                        <dt class="col-sm-4">Submission Date</dt>
+                        <dd class="col-sm-8">@Model.SubmissionDate.ToString("g")</dd>
+                    </dl>
+
+                    <div class="mt-4">
+                        <h4>Supporting Documents</h4>
+                        @if (Model.Documents != null && Model.Documents.Any())
+                        {
+                            <div class="list-group">
+                                @foreach (var doc in Model.Documents)
+                                {
+                                    <div class="list-group-item d-flex justify-content-between align-items-center">
+                                        <span>
+                                            <i class="bi bi-file-earmark-pdf"></i>
+                                            @doc.FileName
+                                        </span>
+                                        <a href="@Url.Action("DownloadDocument", "Claims", new { id = doc.DocumentId })"
+                                           class="btn btn-primary btn-sm">
+                                            <i class="bi bi-download"></i> Download
+                                        </a>
+                                    </div>
+                                }
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="alert alert-info">
+                                No supporting documents available
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @if (User.IsInRole("HR") || User.IsInRole("Coordinator"))
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Validation Results</h4>
+                    </div>
+                    <div class="card-body">
+                        @if (ViewBag.ValidationResult != null)
+                        {
+                            <ul class="list-group">
+                                <li class="list-group-item @(ViewBag.ValidationResult.HoursValid ? "list-group-item-success" : "list-group-item-danger")">
+                                    Hours Validation
+                                </li>
+                                <li class="list-group-item @(ViewBag.ValidationResult.RateValid ? "list-group-item-success" : "list-group-item-danger")">
+                                    Rate Validation
+                                </li>
+                                <li class="list-group-item @(ViewBag.ValidationResult.DocumentsValid ? "list-group-item-success" : "list-group-item-danger")">
+                                    Documents Validation
+                                </li>
+                            </ul>
+                            @if (!string.IsNullOrEmpty(ViewBag.ValidationResult.Notes))
+                            {
+                                <div class="alert alert-info mt-3">
+                                    @ViewBag.ValidationResult.Notes
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+
+                @if (Model.Status == "Pending")
+                {
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <button onclick="updateClaimStatus(@Model.ClaimId, 'Approved')"
+                                    class="btn btn-success w-100 mb-2">
+                                Approve Claim
+                            </button>
+                            <button onclick="updateClaimStatus(@Model.ClaimId, 'Rejected')"
+                                    class="btn btn-danger w-100">
+                                Reject Claim
+                            </button>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function updateClaimStatus(claimId, status) {
+            if (confirm(`Are you sure you want to ${status.toLowerCase()} this claim?`)) {
+                fetch(`/Claims/UpdateStatus?id=${claimId}&status=${status}`, {
+                    method: 'POST',
+                    headers: {
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    }
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            location.reload();
+                        } else {
+                            alert('Failed to update status');
+                        }
+                    });
+            }
+        }
+    </script>
+    @Html.AntiForgeryToken()
+}

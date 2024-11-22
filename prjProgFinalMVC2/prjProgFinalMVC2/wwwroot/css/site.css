@@ -1,0 +1,160 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #f8f9fa;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.badge {
+    font-weight: 500;
+    padding: 0.5em 0.75em;
+}
+
+.validation-message {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+    .validation-message.info {
+        background-color: #cce5ff;
+        border: 1px solid #b8daff;
+    }
+
+    .validation-message.warning {
+        background-color: #fff3cd;
+        border: 1px solid #ffeeba;
+    }
+
+    .validation-message.error {
+        background-color: #f8d7da;
+        border: 1px solid #f5c6cb;
+    }
+
+.btn-group {
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+.dropdown-menu {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.alert {
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+/* Workflow Timeline Styles */
+.workflow-container {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.workflow-timeline {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 40px 0;
+}
+
+    .workflow-timeline::before {
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: #e9ecef;
+        z-index: 1;
+    }
+
+.workflow-step {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    flex: 1;
+}
+
+.step-icon {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid #dee2e6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+}
+
+.workflow-step.completed .step-icon {
+    background: #28a745;
+    border-color: #28a745;
+    color: #fff;
+}
+
+.workflow-step.current .step-icon {
+    background: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.step-label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.step-date {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.workflow-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Animation for status changes */
+.workflow-step {
+    transition: all 0.3s ease;
+}
+
+    .workflow-step.completed {
+        transform: scale(1.05);
+    }

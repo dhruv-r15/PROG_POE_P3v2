@@ -1,0 +1,380 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\controllers\\modulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\services\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\services\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\models\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\models\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\models\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\models\\coordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\models\\coordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\dtos\\lecturercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\dtos\\lecturercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\data\\claimsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\data\\claimsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|c:\\users\\lab_services_student\\source\\repos\\prjfinalprogapi\\prjfinalprogapi\\prjfinalprogapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E5DA8EA-A49F-44DE-90FC-AFE93EB6E0C0}|prjFinalProgApi\\prjFinalProgApi.csproj|solutionrelative:prjfinalprogapi\\prjfinalprogapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\DTOs\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\DTOs\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\DTOs\\AuthResponse.cs",
+              "RelativeToolTip": "prjFinalProgApi\\DTOs\\AuthResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:38:22.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "prjFinalProgApi\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:37:01.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Program.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Program.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Program.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAwGgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:33:22.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "prjFinalProgApi\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:37:49.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAiwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:39:29.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClaimsController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\ClaimsController.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Controllers\\ClaimsController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\ClaimsController.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Controllers\\ClaimsController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwv0cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:40:10.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Controllers\\DocumentController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:42:12.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Controllers\\LecturerController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Controllers\\LecturerController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:43:31.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModuleController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\ModuleController.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Controllers\\ModuleController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Controllers\\ModuleController.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Controllers\\ModuleController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:02:23.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Claim.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Models\\Claim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:15:38.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Services\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Services\\IDocumentService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Services\\IDocumentService.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Services\\IDocumentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:29:43.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Services\\DocumentService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Services\\DocumentService.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Services\\DocumentService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:30:07.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Module.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Module.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Models\\Module.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Module.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Models\\Module.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T15:01:31.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lecturer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Lecturer.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Models\\Lecturer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Lecturer.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Models\\Lecturer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:15:17.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Models\\Document.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Document.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Models\\Document.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:15:59.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Coordinator.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Coordinator.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Models\\Coordinator.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Models\\Coordinator.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Models\\Coordinator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:39:44.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LecturerCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\DTOs\\LecturerCreateDto.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\DTOs\\LecturerCreateDto.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\DTOs\\LecturerCreateDto.cs",
+              "RelativeToolTip": "prjFinalProgApi\\DTOs\\LecturerCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:00:17.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Data\\DbSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:47:57.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClaimsDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Data\\ClaimsDbContext.cs",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\Data\\ClaimsDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\Data\\ClaimsDbContext.cs",
+              "RelativeToolTip": "prjFinalProgApi\\Data\\ClaimsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T11:17:11.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\appsettings.json",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\appsettings.json",
+              "RelativeToolTip": "prjFinalProgApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T11:35:02.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "prjFinalProgApi.csproj",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\prjFinalProgApi.csproj",
+              "RelativeDocumentMoniker": "prjFinalProgApi\\prjFinalProgApi.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\prjFinalProgApi\\prjFinalProgApi\\prjFinalProgApi.csproj",
+              "RelativeToolTip": "prjFinalProgApi\\prjFinalProgApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-21T11:36:42.473Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
