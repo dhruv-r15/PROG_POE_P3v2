@@ -7,3 +7,7 @@ namespace prjProgFinalMVC2.Models
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
+
+
+
+
